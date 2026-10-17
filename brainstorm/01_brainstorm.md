@@ -2,7 +2,12 @@
 
 Draft 1 · 2026-10-17 · Input for the proposal to Simo Afeilal (owns GTM at PerformUp, partner of Sara Souissi).
 
-> **Missing input:** Simo's voice note of 14 Oct (`context/simo_voice_note_2026-10-14.opus`, 42 s) could not be transcribed in this session. It most likely answers "how are you organised today?". Write its gist into `context/CONTEXT.md` and re-check sections 2 and 6 against it.
+> **Update 17 Oct, voice note transcribed** (`context/CONTEXT.md`): **Simo is an outbound person.** He works LinkedIn, automation and prospecting campaigns, and that is how PerformUp gets clients today. He wants a plan they can put in place, presented on a call and then sent in writing.
+>
+> **What changes:**
+> - Don't sell him outbound; he does it already.
+> - Pitch Karim as **the inbound + conversion layer around Simo's outbound engine**: trust assets, paid inbound, the simulator, and tracking.
+> - Show how each piece **makes his outbound convert better**. Two examples: a prospect who clicks through from a DM lands on an English-only, anonymous site with no reviews, and that loses the lead; and inbound tools create warm signals for him to follow up on.
 
 ---
 
@@ -20,7 +25,8 @@ Draft 1 · 2026-10-17 · Input for the proposal to Simo Afeilal (owns GTM at Per
 | "Europe's N°1 admission coaching", coaches are former admissions jury members | Price per programme, average basket, payment plans |
 | 30h+ GMAT/GRE/Tage Mage 1:1, CV + essays, unlimited mock interviews | Clients per year and capacity (coaches available, max clients) |
 | "Admitted or refunded" guarantee | Leads/month, call booking rate, show rate, close rate |
-| One way in: the free strategy call | Where current clients come from (word of mouth? Instagram? schools?) |
+| One way in: the free strategy call. **Leads come from Simo's LinkedIn outbound + automation** (voice note) | Outbound numbers: who is targeted (students? parents?), messages/week, acceptance and reply rates, calls booked, tools (Waalaxy / La Growth Machine / lemlist?) |
+| | Share of clients from outbound vs word of mouth vs other |
 | Instagram + LinkedIn only. No ads, content, tools, events or reviews | Segment mix: French AST/MiM vs international (LBS, Bocconi…) vs GMAT-only |
 | Price not public | Budget for ads/tools; who does what today (Simo alone?) |
 | | Tools: CRM? Calendly? WhatsApp Business? Tracking pixel? |
@@ -92,7 +98,7 @@ Score: **I**mpact / **S**peed to results / **C**ost (5 = cheap) / **K** = fit wi
 | D2 | **Alumni ambassador and referral programme.** Admitted clients now at HEC/ESSEC/ESCP get €200–300 or a gift per signed referral. Admits are the most credible voice. | 4 | 4 | 4 | 4 | **16** |
 | D3 | **Francophone international market** (Morocco, Tunisia, Lebanon, West Africa). Morocco is the largest group of foreign students in France, and local coaching for French MiM/AST is thin. Partners: business schools and universities (ISCAE, ENCG, UIR, Al Akhawayn, IHEC Carthage), student clubs, study-abroad agencies. Check whether Karim/Simo/Sara networks help here. | 4 | 3 | 4 | 3 | 14 |
 | D4 | **Partnerships with test-only prep firms** (GMAT/Tage Mage tutors who don't do essays/orals) and study-abroad agencies. Cross-referral with commission. | 3 | 3 | 5 | 4 | 15 |
-| D5 | **LinkedIn/Instagram DM outbound to students** (e.g. people posting Tage Mage scores or "admissible" posts). Works, but slow per hour. **Cold B2C email is not an option in France** (needs prior consent, CNIL). | 3 | 4 | 4 | 2 | 13 |
+| D5 | **Upgrade Simo's existing outbound** (he runs it; Karim adds to it): **signal-based lists** (students posting Tage Mage/GMAT scores, "admissible" posts, followers of HEC/ESSEC MiM or competitor pages, simulator users), Instagram DMs alongside LinkedIn, and **warm-up through content and retargeting**, so prospects have seen Sara/jury content before the DM. **Cold B2C email is not an option in France** (needs prior consent, CNIL). | 4 | 4 | 4 | 4 | **16** |
 | D6 | **Salons & fairs** (Salon des Masters, Grand Salon, Access Masters). A good partnership format, but expensive and not repeatable without staff. | 3 | 3 | 1 | 1 | 8 |
 
 ### E. More revenue per client (later)
@@ -102,12 +108,12 @@ Score: **I**mpact / **S**peed to results / **C**ost (5 = cheap) / **K** = fit wi
 
 ## 6. Shortlist for the proposal (90-day pilot)
 
-The logic is to **fix the bucket, open one fast tap, and build one asset**.
+The logic is to **fix the bucket, open one fast tap, and build one asset**, all **around Simo's outbound, not instead of it**. The story for the call: "Your outbound brings attention. Today, part of it is lost on the way to a signed client, and there is no second source of leads when outbound slows down. I build that second source and the trust layer, and we measure everything together."
 
 1. **Weeks 1–2: Diagnostic + plumbing (A1, A3, tracking).** Get Simo's numbers. Put a CRM, speed-to-lead WhatsApp and follow-ups in place. Install pixel and GA4. Launch the reviews drive (A2). → Measurable baseline. This alone usually lifts conversion.
 2. **Weeks 2–10: Paid test on the current cycle (B1 + B2 + B4).** Founder/jury videos with an instant lead form, high-intent Google keywords, and a "refusé au R1" angle. Budget €1.5–3k/month. Kill or scale based on cost per signed client.
 3. **Weeks 3–8: Build the simulator (C1).** One lasting asset that feeds ads, SEO and partnerships, and sets PerformUp apart on the "jury" angle.
-4. **Run alongside, low effort: referral + ambassadors (D2) and 5–10 student associations (D1).** Simo can run these with templates Karim prepares.
+4. **Run alongside, low effort: referral + ambassadors (D2), 5–10 student associations (D1) and signal-based lists for Simo's outbound (D5).** These are close to what Simo does already, so he runs them with lists and templates Karim prepares.
 5. **Months 3–6 (if the pilot works):** SEO school pages (C2), webinars per feeder programme (C5), Maghreb partnerships (D3).
 
 **Pilot KPIs:** leads/week, booked-call rate, show rate, close rate, cost per signed client (CAC), revenue attributed, review count.
@@ -123,7 +129,12 @@ The logic is to **fix the bucket, open one fast tap, and build one asset**.
 
 **Recommendation:** propose a **90-day pilot in model 3**, with the diagnostic included in month 1. Exit clause after 90 days for both sides. Keep the option to talk about equity/advisor status later if it becomes a real growth role.
 
-**Framing with Simo:** Simo owns GTM, so Karim comes in as a **growth partner who brings systems, data and automation**, not as someone who replaces him. Simo keeps the relationships (associations, partners). Karim builds the machine (tracking, ads, simulator, automations) and steers the numbers with him weekly.
+**Framing with Simo:** Simo owns GTM and is strong on outbound and automation, so **don't step on that**. Split the work clearly:
+- **Simo:** outbound, partnerships, relationships (associations, ambassadors).
+- **Karim:** inbound (paid + organic), trust and conversion assets (FR site, reviews, simulator, content system), tracking and attribution.
+- **Together:** a weekly 30-minute review of the numbers.
+
+The success fee only counts clients from **Karim's channels** (inbound, tracked by UTM/CRM), so nobody argues over outbound credit.
 
 ## 8. Open questions for us (before writing the proposal)
 - How many hours/week can Karim really give next to Revo? (Proposal assumes ~4–6 h/week after the build.)

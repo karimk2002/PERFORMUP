@@ -8,6 +8,13 @@
 3. Capacité : combien de coachs, combien de clients max en parallèle ? Une hausse de leads peut-elle être absorbée ?
 4. Combien de remboursements par an au titre de la garantie ?
 
+## Ton outbound (son domaine : poser des questions, ne pas faire la leçon)
+- Qui tu cibles : étudiants (L3/M1, quelles écoles) ou parents ? Sur LinkedIn uniquement ?
+- Quels volumes : invitations par semaine, taux d'acceptation, taux de réponse, appels réservés ?
+- Quels outils (Waalaxy, La Growth Machine, lemlist, Sales Navigator) ? Quels messages marchent le mieux ?
+- Quand un prospect clique sur le site ou le profil après ton message, que se passe-t-il ? Tu perds des gens à ce moment-là ?
+- Qu'est-ce qui te manque pour que l'outbound convertisse mieux ? (preuves, contenu, avis, une version française du site…)
+
 ## Sources actuelles
 5. D'où viennent les clients actuels ? (bouche-à-oreille, Instagram, LinkedIn, Google, écoles, parents…)
 6. Quel est le meilleur profil de client ? (AST France, MiM international, GMAT seul ; étudiant ou parent qui paie ; Paris, province, étranger)

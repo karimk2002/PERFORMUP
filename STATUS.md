@@ -7,7 +7,7 @@ Status: on-track
 
 ## Now
 - 2026-10-17: Brainstorm draft 1 done (brainstorm/01_brainstorm.md): ~25 ideas scored, a 90-day pilot shortlist, and 4 ways to get paid (recommended: small retainer + fee per signed client). Discovery-call questions in French ready (brainstorm/02_questions_call_simo.md).
-- Simo's 14 Oct voice note has not been transcribed yet (no speech-to-text in the cloud session). Its gist goes in context/CONTEXT.md.
+- Voice note transcribed (context/CONTEXT.md): PerformUp's clients come today from Simo's LinkedIn outbound + automation. He wants an action plan presented on a call and then sent in writing. Brainstorm reframed: Karim brings the inbound + conversion layer around Simo's outbound and gets a success fee only on his own tracked channels.
 - performup.eu audit (partial): English-only site, anonymous team, no reviews, 120+ students coached, 92% admission claim.
 - Competitor map done: 53 companies in performup_competitors.csv (18 high, 23 medium, 12 low overlap), with websites, offer, pricing, guarantees and socials.
 - Segments: France (AST / Tage Mage prep), international MBA/MiM consultancies, other European boutiques, GMAT/GRE test prep.
@@ -15,7 +15,7 @@ Status: on-track
 - Acquisition research done (performup_acquisition.csv, dashboard section): rivals use 6.8 of 11 channels on average; PerformUp relies on its free call only, runs no ads, has no content, free tools, events or third-party reviews.
 
 ## Next actions
-- [ ] Add the voice note transcript/gist to context/CONTEXT.md, then adjust the brainstorm
+- [x] Add the voice note transcript to context/CONTEXT.md and adjust the brainstorm (2026-10-17)
 - [ ] Choose: how many hours/week next to Revo, and which pay model; check the Revo contract for side-work clauses
 - [ ] Book the discovery call with Simo and run brainstorm/02_questions_call_simo.md
 - [ ] Write the proposal (proposal/) from the call's numbers
