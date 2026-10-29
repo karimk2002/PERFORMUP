@@ -55,7 +55,7 @@ Draft 1 · 2026-10-17 · Input for the proposal to Simo Afeilal (owns GTM at Per
 
 - **The guarantee is not a differentiator in France.** Hello Prépa, Admissions Parallèles and Prepfection all offer "admis ou remboursé". It only stands out against international firms.
 - **Real differentiators to push:**
-  1. **Former jury members.** Nobody in France leads with this. Content angle: "what the jury really thinks of your CV / your answer".
+  1. **Former jury members.** *Correction, 29 Oct:* this is NOT unique. Hello Prépa, Mission Admission and PGE-PGO claim it in France, and Fortuna, Menlo and Personal MBA Coach claim the international equivalent. It still works as a content angle ("what the jury really thinks of your CV / your answer"), but it only stands out with **proof**: named coaches, faces, results by school.
   2. **France + international in one place.** AST/MiM and LBS/Bocconi/GMAT together. Only MyCursus does this.
   3. **Fully 1:1 and unlimited mock interviews.** Paris prépas sell groups.
 - **Main threats:** MiM Prep (UK, same model, ~75 founder video ads on Meta, "30 places per round") and Hello Prépa (influencer reach).

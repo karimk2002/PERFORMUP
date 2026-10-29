@@ -1,11 +1,12 @@
 # PERFORMUP — STATUS
 
-Updated: 2026-10-17
+Updated: 2026-10-29
 
 Goal: win a GTM/acquisition collaboration with PerformUp (contact: Simo Afeilal, who owns GTM), built on the competitive research below.
 Status: on-track
 
 ## Now
+- 2026-10-29: Call prep for the 30 Oct call with Simo, in call_prep/: what to offer (00), competitor briefing (01), all 53 competitors (02). Recommended offer: 90-day pilot at €500–800/month + €300–400 per signed client from Karim's channels, ad budget min €1k/month paid by them. Correction: the "ex-jury" claim is not unique (Hello Prépa, Mission Admission, PGE-PGO).
 - 2026-10-17: Brainstorm draft 1 done (brainstorm/01_brainstorm.md): ~25 ideas scored, a 90-day pilot shortlist, and 4 ways to get paid (recommended: small retainer + fee per signed client). Discovery-call questions in French ready (brainstorm/02_questions_call_simo.md).
 - Voice note transcribed (context/CONTEXT.md): PerformUp's clients come today from Simo's LinkedIn outbound + automation. He wants an action plan presented on a call and then sent in writing. Brainstorm reframed: Karim brings the inbound + conversion layer around Simo's outbound and gets a success fee only on his own tracked channels.
 - performup.eu audit (partial): English-only site, anonymous team, no reviews, 120+ students coached, 92% admission claim.
@@ -17,8 +18,9 @@ Status: on-track
 ## Next actions
 - [x] Add the voice note transcript to context/CONTEXT.md and adjust the brainstorm (2026-10-17)
 - [ ] Choose: how many hours/week next to Revo, and which pay model; check the Revo contract for side-work clauses
-- [ ] Book the discovery call with Simo and run brainstorm/02_questions_call_simo.md
-- [ ] Write the proposal (proposal/) from the call's numbers
+- [x] Book the discovery call with Simo (30 Oct)
+- [ ] Run the call and run brainstorm/02_questions_call_simo.md
+- [ ] Send the written plan + offer to Simo within 48 h of the call (proposal/)
 - [x] Build competitor CSV with websites, services and socials (2026-10-03)
 - [x] Build competitor dashboard (2026-10-03)
 - [x] Research how competitors find clients, incl. Meta and Google ad libraries (2026-10-06)
