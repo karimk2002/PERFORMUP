@@ -19,7 +19,7 @@ Status: on-track
 - [x] Add the voice note transcript to context/CONTEXT.md and adjust the brainstorm (2026-10-17)
 - [ ] Choose: how many hours/week next to Revo, and which pay model; check the Revo contract for side-work clauses
 - [x] Book the discovery call with Simo (30 Oct)
-- [ ] Run the call and run brainstorm/02_questions_call_simo.md
+- [ ] Run the call (questions: brainstorm/02_questions_call_simo.md)
 - [ ] Send the written plan + offer to Simo within 48 h of the call (proposal/)
 - [x] Build competitor CSV with websites, services and socials (2026-10-03)
 - [x] Build competitor dashboard (2026-10-03)
