@@ -28,6 +28,8 @@ Call: 30 Oct 2026, morning. Competitor context: `01_competitor_briefing.md`.
 
 ## 3. Three options to put on the table
 
+> **Update 29 Oct:** the options below cover the **paid-ads** offer only. The full menu, with organic content, SEO, simulator, lead magnet, nurturing, webinars and bundles, is in **`03_pricing_menu.md`**. **New recommendation:** lead with the **"Fondations" one-off (€3,000, 5 weeks)**, then let them pick 1–2 recurring engines (SEO, social content or ads). The ads pilot below becomes one of those engines.
+
 Present them as a menu, with the recommended one first. Give the structure and ranges on the call; confirm exact numbers in the written proposal after seeing their figures.
 
 | | **A. 90-day growth pilot** *(recommended)* | **B. Pay on results** | **C. Setup sprint only** |

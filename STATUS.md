@@ -6,6 +6,7 @@ Goal: win a GTM/acquisition collaboration with PerformUp (contact: Simo Afeilal,
 Status: on-track
 
 ## Now
+- 2026-10-29: Full pricing menu added (call_prep/03_pricing_menu.md): one-off builds (foundations €3k, simulator, lead magnet, webinars) + monthly engines (SEO €900–1,200, social content €700–900, ads €500–800) + €200–300 bonus per signed client. New lead offer: "Fondations" first, then 1–2 engines.
 - 2026-10-29: Call prep for the 30 Oct call with Simo, in call_prep/: what to offer (00), competitor briefing (01), all 53 competitors (02). Recommended offer: 90-day pilot at €500–800/month + €300–400 per signed client from Karim's channels, ad budget min €1k/month paid by them. Correction: the "ex-jury" claim is not unique (Hello Prépa, Mission Admission, PGE-PGO).
 - 2026-10-17: Brainstorm draft 1 done (brainstorm/01_brainstorm.md): ~25 ideas scored, a 90-day pilot shortlist, and 4 ways to get paid (recommended: small retainer + fee per signed client). Discovery-call questions in French ready (brainstorm/02_questions_call_simo.md).
 - Voice note transcribed (context/CONTEXT.md): PerformUp's clients come today from Simo's LinkedIn outbound + automation. He wants an action plan presented on a call and then sent in writing. Brainstorm reframed: Karim brings the inbound + conversion layer around Simo's outbound and gets a success fee only on his own tracked channels.
