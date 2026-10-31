@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>06 · Contenu fondateur</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400..700&amp;family=DM+Sans:wght@400..700&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#B04A17}a:hover{color:#8A3A12}
+</style>
+</helmet>
+<div style="width: 1100px; height: 1800px; box-sizing: border-box; padding: 64px; background: #F5F3EE; color: #15213A; font-family: 'DM Sans', Arial, sans-serif; display: flex; flex-direction: column; gap: 28px">
+<div style="display: flex; justify-content: space-between; align-items: center">
+<p style="margin: 0; font-size: 18px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; background: #B04A17; color: #FCFBF8; padding: 8px 18px; border-radius: 999px">Moteur inbound</p>
+<p style="margin: 0; font-family: 'Fraunces', Georgia, serif; font-size: 44px; font-weight: 600; color: #B04A17">06</p>
+</div>
+<h1 style="margin: 0; font-family: 'Fraunces', Georgia, serif; font-size: 64px; font-weight: 600; line-height: 1.05">Contenu fondateur</h1>
+<p style="margin: 0; font-size: 24px; line-height: 1.5; color: #3E4757"><b style="color: #15213A">Pour PerformUp :</b> Sara et les coachs face caméra. 8 vidéos courtes et 8 posts LinkedIn par mois, écrits pour eux, tournés en une séance. Angle : ce que le jury pense vraiment.</p>
+<p style="margin: 0; align-self: flex-start; font-size: 22px; font-weight: 700; background: #F8E6DA; color: #B04A17; padding: 8px 18px; border-radius: 999px">700–900 € / mois · montage au coût réel</p>
+
+<figure style="margin: 0; position: relative; height: 480px; box-sizing: border-box; background: #E9E4D8; border-radius: 24px; padding: 56px 48px 32px; display: flex; gap: 32px; align-items: center">
+<figcaption style="position: absolute; top: 20px; left: 28px; font-size: 16px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #5B6474">Aperçu pour PerformUp · illustration</figcaption>
+<div style="width: 220px; height: 390px; flex: none; box-sizing: border-box; background: #15213A; border-radius: 28px; padding: 24px 18px; display: flex; flex-direction: column; justify-content: space-between; border: 6px solid #2E3A52">
+<p style="margin: 0; font-size: 14px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: #F2945C">Vidéo · 40 s</p>
+<p style="margin: 0; font-family: 'Fraunces', Georgia, serif; font-size: 26px; font-weight: 600; line-height: 1.2; color: #F5F3EE">Ce que le jury pense vraiment de « parle-moi de toi »</p>
+<p style="margin: 0; font-size: 14px; color: #C9D1DE">[Sara, ancienne jurée] · @performup</p>
+</div>
+<div style="flex: 1; display: flex; flex-direction: column; gap: 16px">
+<div style="background: #FCFBF8; border-radius: 16px; padding: 22px; display: flex; flex-direction: column; gap: 10px">
+<div style="display: flex; align-items: center; gap: 12px"><div style="width: 44px; height: 44px; border-radius: 50%; background: #C9C2B3"></div><div style="display: flex; flex-direction: column"><p style="margin: 0; font-size: 18px; font-weight: 700">[Sara Souissi]</p><p style="margin: 0; font-size: 14px; color: #5B6474">Fondatrice, PerformUp</p></div></div>
+<p style="margin: 0; font-size: 18px; line-height: 1.45; color: #15213A">J’ai lu [__] dossiers en tant que jurée. Les 3 erreurs qui font perdre une place à l’oral, et comment les éviter.</p>
+</div>
+<p style="margin: 0; font-size: 17px; font-weight: 700; color: #5B6474">Idées de séries :</p>
+<div style="display: flex; flex-wrap: wrap; gap: 10px">
+<p style="margin: 0; font-size: 17px; background: #FCFBF8; border: 1px solid #C9C2B3; padding: 7px 14px; border-radius: 999px">CV relu en 60 s</p>
+<p style="margin: 0; font-size: 17px; background: #FCFBF8; border: 1px solid #C9C2B3; padding: 7px 14px; border-radius: 999px">Mythes sur le Tage Mage</p>
+<p style="margin: 0; font-size: 17px; background: #FCFBF8; border: 1px solid #C9C2B3; padding: 7px 14px; border-radius: 999px">Admis qui racontent</p>
+<p style="margin: 0; font-size: 17px; background: #FCFBF8; border: 1px solid #C9C2B3; padding: 7px 14px; border-radius: 999px">Question du jour</p>
+</div>
+</div>
+</figure>
+
+<div style="display: flex; flex-direction: column">
+<p style="margin: 0 0 8px; font-size: 18px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: #5B6474">Qui le fait déjà</p>
+<sc-for list="{{ ex }}" as="e" hint-placeholder-count="4">
+<div style="display: grid; grid-template-columns: minmax(0, 1fr) 230px; gap: 24px; border-top: 1px solid #C9C2B3; padding: 16px 0; align-items: center">
+<div style="display: flex; flex-direction: column; gap: 4px"><p style="margin: 0; font-size: 24px; font-weight: 700">{{ e.n }} <a href="{{ e.u }}" style="font-size: 18px; font-weight: 500">{{ e.d }}</a></p><p style="margin: 0; font-size: 20px; line-height: 1.45; color: #3E4757">{{ e.w }}</p></div>
+<p style="margin: 0; font-family: 'Fraunces', Georgia, serif; font-size: 30px; font-weight: 600; line-height: 1.15; color: #B04A17; text-align: right">{{ e.k }}</p>
+</div>
+</sc-for>
+</div>
+<div style="flex: 1"></div>
+<div style="background: #15213A; border-radius: 20px; padding: 28px 32px"><p style="margin: 0; font-family: 'Fraunces', Georgia, serif; font-size: 28px; font-weight: 600; line-height: 1.3; color: #F5F3EE">L’angle « ancien jury » est fait pour la vidéo courte. Condition : que Sara accepte de tourner chaque mois.</p></div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1100,"height":1800}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return { ex: [
+      { n: 'ASTPrep', d: 'astprep.com', u: 'https://astprep.com', w: 'Le fondateur sur TikTok et YouTube, puis un Discord gratuit : 4 000+ élèves payants en deux ans.', k: '133K TikTok' },
+      { n: 'Hello Prépa', d: 'hello-prepa.com', u: 'https://www.hello-prepa.com', w: 'Deux fondateurs-influenceurs, un média propre, des livres best-sellers.', k: 'TikTok + livres' },
+      { n: 'MiM Prep', d: 'mimprep.com', u: 'https://www.mimprep.com', w: 'LinkedIn organique du fondateur, newsletter et concours sur Instagram.', k: '55K LinkedIn' },
+      { n: 'GMAT Ninja', d: 'gmatninja.com', u: 'https://www.gmatninja.com', w: 'Cours gratuit sur YouTube, fondateur expert résident de GMAT Club.', k: '6 500+ posts' }
+    ] };
+  }
+}
+</script>
+</body>
+</html>

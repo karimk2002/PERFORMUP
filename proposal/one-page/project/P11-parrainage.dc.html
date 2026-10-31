@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>11 · Parrainage et ambassadeurs</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400..700&amp;family=DM+Sans:wght@400..700&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#B04A17}a:hover{color:#8A3A12}
+</style>
+</helmet>
+<div style="width: 1100px; height: 1800px; box-sizing: border-box; padding: 64px; background: #F5F3EE; color: #15213A; font-family: 'DM Sans', Arial, sans-serif; display: flex; flex-direction: column; gap: 28px">
+<div style="display: flex; justify-content: space-between; align-items: center">
+<p style="margin: 0; font-size: 18px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; background: #2E5AAC; color: #FCFBF8; padding: 8px 18px; border-radius: 999px">Relais</p>
+<p style="margin: 0; font-family: 'Fraunces', Georgia, serif; font-size: 44px; font-weight: 600; color: #B04A17">11</p>
+</div>
+<h1 style="margin: 0; font-family: 'Fraunces', Georgia, serif; font-size: 64px; font-weight: 600; line-height: 1.05">Parrainage et ambassadeurs</h1>
+<p style="margin: 0; font-size: 24px; line-height: 1.5; color: #3E4757"><b style="color: #15213A">Pour PerformUp :</b> chaque ancien élève admis à HEC, l’ESSEC ou l’ESCP reçoit une récompense par filleul signé. Les plus actifs deviennent ambassadeurs dans leur école.</p>
+<p style="margin: 0; align-self: flex-start; font-size: 22px; font-weight: 700; background: #E3EAF6; color: #2E5AAC; padding: 8px 18px; border-radius: 999px">Récompense à fixer par PerformUp · mise en place légère</p>
+
+<figure style="margin: 0; position: relative; height: 480px; box-sizing: border-box; background: #E9E4D8; border-radius: 24px; padding: 56px 48px 32px; display: flex; flex-direction: column; justify-content: center; gap: 22px">
+<figcaption style="position: absolute; top: 20px; left: 28px; font-size: 16px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #5B6474">Aperçu pour PerformUp · illustration</figcaption>
+<div style="background: #15213A; border-radius: 18px; padding: 30px; display: flex; align-items: center; gap: 28px">
+<div style="flex: 1; display: flex; flex-direction: column; gap: 8px"><p style="margin: 0; font-size: 15px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #F2945C">Message WhatsApp aux admis</p><p style="margin: 0; font-family: 'Fraunces', Georgia, serif; font-size: 32px; font-weight: 600; line-height: 1.2; color: #F5F3EE">Un ami vise HEC ? [200 €] pour toi, [100 €] de réduction pour lui.</p></div>
+<p style="margin: 0; flex: none; font-size: 18px; font-weight: 700; background: #F2945C; color: #15213A; padding: 12px 18px; border-radius: 10px">Mon lien</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px">
+<div style="background: #FCFBF8; border-radius: 14px; padding: 18px; display: flex; flex-direction: column; gap: 6px; align-items: center"><div style="width: 56px; height: 56px; border-radius: 50%; background: #C9C2B3"></div><p style="margin: 0; font-size: 18px; font-weight: 700">Ambassadeur HEC</p><p style="margin: 0; font-size: 15px; color: #5B6474">[prénom], promo 2026</p></div>
+<div style="background: #FCFBF8; border-radius: 14px; padding: 18px; display: flex; flex-direction: column; gap: 6px; align-items: center"><div style="width: 56px; height: 56px; border-radius: 50%; background: #C9C2B3"></div><p style="margin: 0; font-size: 18px; font-weight: 700">Ambassadeur ESSEC</p><p style="margin: 0; font-size: 15px; color: #5B6474">[prénom], promo 2026</p></div>
+<div style="background: #FCFBF8; border-radius: 14px; padding: 18px; display: flex; flex-direction: column; gap: 6px; align-items: center"><div style="width: 56px; height: 56px; border-radius: 50%; background: #C9C2B3"></div><p style="margin: 0; font-size: 18px; font-weight: 700">Ambassadeur ESCP</p><p style="margin: 0; font-size: 15px; color: #5B6474">[prénom], promo 2026</p></div>
+</div>
+</figure>
+
+<div style="display: flex; flex-direction: column">
+<p style="margin: 0 0 8px; font-size: 18px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: #5B6474">Qui le fait déjà</p>
+<sc-for list="{{ ex }}" as="e" hint-placeholder-count="4">
+<div style="display: grid; grid-template-columns: minmax(0, 1fr) 230px; gap: 24px; border-top: 1px solid #C9C2B3; padding: 16px 0; align-items: center">
+<div style="display: flex; flex-direction: column; gap: 4px"><p style="margin: 0; font-size: 24px; font-weight: 700">{{ e.n }} <a href="{{ e.u }}" style="font-size: 18px; font-weight: 500">{{ e.d }}</a></p><p style="margin: 0; font-size: 20px; line-height: 1.45; color: #3E4757">{{ e.w }}</p></div>
+<p style="margin: 0; font-family: 'Fraunces', Georgia, serif; font-size: 30px; font-weight: 600; line-height: 1.15; color: #B04A17; text-align: right">{{ e.k }}</p>
+</div>
+</sc-for>
+</div>
+<div style="flex: 1"></div>
+<div style="background: #15213A; border-radius: 20px; padding: 28px 32px"><p style="margin: 0; font-family: 'Fraunces', Georgia, serif; font-size: 28px; font-weight: 600; line-height: 1.3; color: #F5F3EE">Vos admis sont déjà dans les écoles que vos prospects visent. Ce sont vos meilleurs vendeurs.</p></div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1100,"height":1800}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return { ex: [
+      { n: 'MiM Prep', d: 'mimprep.com', u: 'https://www.mimprep.com', w: 'Ses tuteurs sont des étudiants actuels de HEC, LBS, ESCP et ESSEC : la preuve vivante.', k: 'Admis = tuteurs' },
+      { n: 'Target Test Prep', d: 'targettestprep.com', u: 'https://www.targettestprep.com', w: 'Programmes d’affiliation et de parrainage, parmi ses trois canaux principaux.', k: 'Affiliés' },
+      { n: 'Magoosh', d: 'magoosh.com', u: 'https://magoosh.com/gmat/', w: 'Programme d’affiliation via Impact et codes promo sur GMAT Club.', k: 'Impact' },
+      { n: 'Training You AST', d: 'ast.training-you.fr', u: 'https://ast.training-you.fr', w: 'S’appuie sur son réseau d’associations comme relais de recommandation.', k: 'Réseau' }
+    ] };
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>09 · Partenariats et associations</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400..700&amp;family=DM+Sans:wght@400..700&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#B04A17}a:hover{color:#8A3A12}
+</style>
+</helmet>
+<div style="width: 1100px; height: 1800px; box-sizing: border-box; padding: 64px; background: #F5F3EE; color: #15213A; font-family: 'DM Sans', Arial, sans-serif; display: flex; flex-direction: column; gap: 28px">
+<div style="display: flex; justify-content: space-between; align-items: center">
+<p style="margin: 0; font-size: 18px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; background: #2E5AAC; color: #FCFBF8; padding: 8px 18px; border-radius: 999px">Relais</p>
+<p style="margin: 0; font-family: 'Fraunces', Georgia, serif; font-size: 44px; font-weight: 600; color: #B04A17">09</p>
+</div>
+<h1 style="margin: 0; font-family: 'Fraunces', Georgia, serif; font-size: 64px; font-weight: 600; line-height: 1.05">Partenariats et associations</h1>
+<p style="margin: 0; font-size: 24px; line-height: 1.5; color: #3E4757"><b style="color: #15213A">Pour PerformUp :</b> un atelier gratuit « Réussir ton oral » avec un ancien jury, proposé aux BDE, clubs finance et Junior-Entreprises de Dauphine, la Sorbonne, les IAE, les BBA, avec un code partenaire.</p>
+<p style="margin: 0; align-self: flex-start; font-size: 22px; font-weight: 700; background: #E3EAF6; color: #2E5AAC; padding: 8px 18px; border-radius: 999px">Piloté par Simo · supports préparés par Karim</p>
+
+<figure style="margin: 0; position: relative; height: 480px; box-sizing: border-box; background: #E9E4D8; border-radius: 24px; padding: 56px 48px 32px; display: flex; gap: 32px; align-items: center">
+<figcaption style="position: absolute; top: 20px; left: 28px; font-size: 16px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #5B6474">Aperçu pour PerformUp · illustration</figcaption>
+<div style="width: 330px; height: 390px; flex: none; box-sizing: border-box; background: #2E5AAC; border-radius: 12px; padding: 28px; display: flex; flex-direction: column; justify-content: space-between; transform: rotate(-2deg); box-shadow: 0 10px 24px rgba(21,33,58,0.18)">
+<p style="margin: 0; font-size: 15px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #FCFBF8">BDE [Dauphine] × PerformUp</p>
+<p style="margin: 0; font-family: 'Fraunces', Georgia, serif; font-size: 36px; font-weight: 600; line-height: 1.1; color: #FCFBF8">Réussir ton oral AST</p>
+<p style="margin: 0; font-size: 17px; line-height: 1.4; color: #E3EAF6">Atelier gratuit avec un ancien membre du jury · [date] · [amphi]</p>
+<p style="margin: 0; align-self: flex-start; font-size: 16px; font-weight: 700; background: #FCFBF8; color: #2E5AAC; padding: 8px 14px; border-radius: 8px">Code : [BDEDAUPH]</p>
+</div>
+<div style="flex: 1; display: flex; flex-direction: column; gap: 12px">
+<p style="margin: 0; font-size: 17px; font-weight: 700; color: #5B6474">Cibles possibles :</p>
+<div style="display: flex; flex-wrap: wrap; gap: 10px">
+<p style="margin: 0; font-size: 17px; background: #FCFBF8; border: 1px solid #C9C2B3; padding: 7px 14px; border-radius: 999px">BDE</p>
+<p style="margin: 0; font-size: 17px; background: #FCFBF8; border: 1px solid #C9C2B3; padding: 7px 14px; border-radius: 999px">Clubs finance</p>
+<p style="margin: 0; font-size: 17px; background: #FCFBF8; border: 1px solid #C9C2B3; padding: 7px 14px; border-radius: 999px">Junior-Entreprises</p>
+<p style="margin: 0; font-size: 17px; background: #FCFBF8; border: 1px solid #C9C2B3; padding: 7px 14px; border-radius: 999px">Prépas Tage Mage sans oral</p>
+<p style="margin: 0; font-size: 17px; background: #FCFBF8; border: 1px solid #C9C2B3; padding: 7px 14px; border-radius: 999px">Agences d’études à l’étranger</p>
+<p style="margin: 0; font-size: 17px; background: #FCFBF8; border: 1px solid #C9C2B3; padding: 7px 14px; border-radius: 999px">Universités au Maroc et en Tunisie</p>
+</div>
+<p style="margin: 0; font-size: 17px; line-height: 1.45; color: #3E4757">Approche B2B : prospection classique, sans le problème du RGPD qui bloque l’email froid aux étudiants.</p>
+</div>
+</figure>
+
+<div style="display: flex; flex-direction: column">
+<p style="margin: 0 0 8px; font-size: 18px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: #5B6474">Qui le fait déjà</p>
+<sc-for list="{{ ex }}" as="e" hint-placeholder-count="4">
+<div style="display: grid; grid-template-columns: minmax(0, 1fr) 230px; gap: 24px; border-top: 1px solid #C9C2B3; padding: 16px 0; align-items: center">
+<div style="display: flex; flex-direction: column; gap: 4px"><p style="margin: 0; font-size: 24px; font-weight: 700">{{ e.n }} <a href="{{ e.u }}" style="font-size: 18px; font-weight: 500">{{ e.d }}</a></p><p style="margin: 0; font-size: 20px; line-height: 1.45; color: #3E4757">{{ e.w }}</p></div>
+<p style="margin: 0; font-family: 'Fraunces', Georgia, serif; font-size: 30px; font-weight: 600; line-height: 1.15; color: #B04A17; text-align: right">{{ e.k }}</p>
+</div>
+</sc-for>
+</div>
+<div style="flex: 1"></div>
+<div style="background: #15213A; border-radius: 20px; padding: 28px 32px"><p style="margin: 0; font-family: 'Fraunces', Georgia, serif; font-size: 28px; font-weight: 600; line-height: 1.3; color: #F5F3EE">Une association, c’est une promo entière d’un coup, avec sa crédibilité. C’est déjà le terrain de Simo.</p></div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1100,"height":1800}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return { ex: [
+      { n: 'Training You AST', d: 'ast.training-you.fr', u: 'https://ast.training-you.fr', w: 'Distribution via les associations étudiantes de sa marque mère (finance, conseil).', k: '40+ assos' },
+      { n: 'Fortuna Admissions', d: 'fortunaadmissions.com', u: 'https://fortunaadmissions.com', w: 'Partenariat Poets&Quants : festivals CentreCourt, annuaire de coachs, classements.', k: 'Poets&Quants' },
+      { n: 'Hello Prépa', d: 'hello-prepa.com', u: 'https://www.hello-prepa.com', w: 'Livres Tage Mage best-sellers, Grand Salon, conférences dans les écoles.', k: 'Livres + salons' },
+      { n: 'UNI Student Advisors', d: 'unistudentadvisors.com', u: 'https://www.unistudentadvisors.com', w: 'Salons QS, réseau ESN et associations étudiantes en Italie.', k: 'Salons + ESN' }
+    ] };
+  }
+}
+</script>
+</body>
+</html>

@@ -9,5 +9,5 @@ Karim's workspace for a growth/acquisition collaboration with PerformUp (perform
 - `call_prep/`: offer reasoning + call plan (00), competitor briefing (01), all 53 competitors (02), full pricing menu for organic/SEO/content/ads (03)
 - `proposal/`: material for Simo, in French
   - `slides/`: 15-slide deck (published: https://claude.ai/artifact/GBFufEiL8FxkzomZMhgUYZ)
-  - `one-page/`: everything on one large zoomable board (published: https://claude.ai/artifact/5B4AF5YZjfifRxp6WCo7wB)
+  - `one-page/`: zoomable canvas (published: https://claude.ai/artifact/5B4AF5YZjfifRxp6WCo7wB). It holds a mood board with 12 boards, one per acquisition plan, each with a PerformUp preview and competitor examples, plus the full plan on one board
   - `objectif.html`: the goal document (published: https://claude.ai/artifact/C1XpZW1PqKbUTEwrW6NUAz)

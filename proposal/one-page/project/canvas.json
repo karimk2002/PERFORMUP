@@ -1,1 +1,17 @@
-{"v":3,"createdOnFiles":{"v":1,"at":"2026-10-31T09:30:00Z"},"title":"PerformUp · Plan sur une page","launch":{"view":"canvas"},"pages":[],"boards":{"Main.dc.html":{"x":0,"y":0,"w":4200,"h":5600,"title":"Plan d’acquisition 2026/27 · tout sur une page"}},"order":["Main.dc.html"],"notes":{},"designSystems":[]}
+{"v":3,"createdOnFiles":{"v":1,"at":"2026-10-31T09:30:00Z"},"title":"PerformUp · Plan sur une page","launch":{"view":"canvas"},"pages":[],"boards":{
+"P01-avis.dc.html":{"x":0,"y":0,"w":1100,"h":1800,"title":"01 · Avis et preuves"},
+"P02-guide.dc.html":{"x":1180,"y":0,"w":1100,"h":1800,"title":"02 · Guide gratuit"},
+"P03-simulateur.dc.html":{"x":2360,"y":0,"w":1100,"h":1800,"title":"03 · Simulateur de chances"},
+"P04-seo.dc.html":{"x":3540,"y":0,"w":1100,"h":1800,"title":"04 · SEO école par école"},
+"P05-webinaires.dc.html":{"x":4720,"y":0,"w":1100,"h":1800,"title":"05 · Webinaires"},
+"P06-contenu.dc.html":{"x":5900,"y":0,"w":1100,"h":1800,"title":"06 · Contenu fondateur"},
+"P07-meta.dc.html":{"x":0,"y":1920,"w":1100,"h":1800,"title":"07 · Publicité Meta"},
+"P08-google.dc.html":{"x":1180,"y":1920,"w":1100,"h":1800,"title":"08 · Publicité Google"},
+"P09-partenariats.dc.html":{"x":2360,"y":1920,"w":1100,"h":1800,"title":"09 · Partenariats et associations"},
+"P10-plateformes.dc.html":{"x":3540,"y":1920,"w":1100,"h":1800,"title":"10 · Plateformes et classements"},
+"P11-parrainage.dc.html":{"x":4720,"y":1920,"w":1100,"h":1800,"title":"11 · Parrainage et ambassadeurs"},
+"P12-outbound.dc.html":{"x":5900,"y":1920,"w":1100,"h":1800,"title":"12 · Outbound (Simo)"},
+"Main.dc.html":{"x":0,"y":4140,"w":4200,"h":5600,"title":"Plan d’acquisition 2026/27 · tout sur une page"}},
+"order":["P01-avis.dc.html","P02-guide.dc.html","P03-simulateur.dc.html","P04-seo.dc.html","P05-webinaires.dc.html","P06-contenu.dc.html","P07-meta.dc.html","P08-google.dc.html","P09-partenariats.dc.html","P10-plateformes.dc.html","P11-parrainage.dc.html","P12-outbound.dc.html","Main.dc.html"],
+"notes":{"moodtitle":{"x":0,"y":-320,"text":"Mood board : chaque plan, avec les concurrents qui le font déjà","kind":"title1","maxW":7000},"onepagetitle":{"x":0,"y":3820,"text":"Le plan complet sur une page","kind":"title1","maxW":4200}},
+"designSystems":[]}

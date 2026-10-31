@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>02 · Guide gratuit</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400..700&amp;family=DM+Sans:wght@400..700&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#B04A17}a:hover{color:#8A3A12}
+</style>
+</helmet>
+<div style="width: 1100px; height: 1800px; box-sizing: border-box; padding: 64px; background: #F5F3EE; color: #15213A; font-family: 'DM Sans', Arial, sans-serif; display: flex; flex-direction: column; gap: 28px">
+<div style="display: flex; justify-content: space-between; align-items: center">
+<p style="margin: 0; font-size: 18px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; background: #15213A; color: #F5F3EE; padding: 8px 18px; border-radius: 999px">Fondations</p>
+<p style="margin: 0; font-family: 'Fraunces', Georgia, serif; font-size: 44px; font-weight: 600; color: #B04A17">02</p>
+</div>
+<h1 style="margin: 0; font-family: 'Fraunces', Georgia, serif; font-size: 64px; font-weight: 600; line-height: 1.05">Guide gratuit</h1>
+<p style="margin: 0; font-size: 24px; line-height: 1.5; color: #3E4757"><b style="color: #15213A">Pour PerformUp :</b> transformer la banque de 400 questions d’entretien en guide à télécharger contre un prénom, un email et un WhatsApp, puis relancer automatiquement.</p>
+<p style="margin: 0; align-self: flex-start; font-size: 22px; font-weight: 700; background: #F8E6DA; color: #B04A17; padding: 8px 18px; border-radius: 999px">700–900 € · inclus dans les Fondations</p>
+
+<figure style="margin: 0; position: relative; height: 480px; box-sizing: border-box; background: #E9E4D8; border-radius: 24px; padding: 64px 48px 40px; display: flex; align-items: center; gap: 40px">
+<figcaption style="position: absolute; top: 20px; left: 28px; font-size: 16px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #5B6474">Aperçu pour PerformUp · illustration</figcaption>
+<div style="width: 300px; height: 380px; flex: none; box-sizing: border-box; background: #15213A; border-radius: 10px 18px 18px 10px; padding: 32px 28px; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 10px 12px 0 #C9C2B3">
+<p style="margin: 0; font-size: 16px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #F2945C">Édition 2027</p>
+<p style="margin: 0; font-family: 'Fraunces', Georgia, serif; font-size: 40px; font-weight: 600; line-height: 1.1; color: #F5F3EE">Les 400 questions d’entretien</p>
+<p style="margin: 0; font-size: 18px; color: #C9D1DE">HEC · ESSEC · ESCP · LBS · Bocconi</p>
+</div>
+<form style="flex: 1; background: #FCFBF8; border-radius: 16px; padding: 28px; display: flex; flex-direction: column; gap: 14px">
+<label for="g-prenom" style="font-size: 18px; font-weight: 700">Prénom</label>
+<input id="g-prenom" readonly value="[Prénom]" style="font: inherit; font-size: 18px; padding: 10px 12px; border: 1px solid #C9C2B3; border-radius: 8px; background: #F5F3EE; color: #5B6474">
+<label for="g-mail" style="font-size: 18px; font-weight: 700">Email ou WhatsApp</label>
+<input id="g-mail" readonly value="[contact]" style="font: inherit; font-size: 18px; padding: 10px 12px; border: 1px solid #C9C2B3; border-radius: 8px; background: #F5F3EE; color: #5B6474">
+<button type="button" style="font: inherit; font-size: 20px; font-weight: 700; padding: 14px; border: 0; border-radius: 10px; background: #B04A17; color: #FCFBF8">Recevoir le guide</button>
+</form>
+</figure>
+
+<div style="display: flex; flex-direction: column">
+<p style="margin: 0 0 8px; font-size: 18px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: #5B6474">Qui le fait déjà</p>
+<sc-for list="{{ ex }}" as="e" hint-placeholder-count="4">
+<div style="display: grid; grid-template-columns: minmax(0, 1fr) 230px; gap: 24px; border-top: 1px solid #C9C2B3; padding: 16px 0; align-items: center">
+<div style="display: flex; flex-direction: column; gap: 4px"><p style="margin: 0; font-size: 24px; font-weight: 700">{{ e.n }} <a href="{{ e.u }}" style="font-size: 18px; font-weight: 500">{{ e.d }}</a></p><p style="margin: 0; font-size: 20px; line-height: 1.45; color: #3E4757">{{ e.w }}</p></div>
+<p style="margin: 0; font-family: 'Fraunces', Georgia, serif; font-size: 30px; font-weight: 600; line-height: 1.15; color: #B04A17; text-align: right">{{ e.k }}</p>
+</div>
+</sc-for>
+</div>
+<div style="flex: 1"></div>
+<div style="background: #15213A; border-radius: 20px; padding: 28px 32px"><p style="margin: 0; font-family: 'Fraunces', Georgia, serif; font-size: 28px; font-weight: 600; line-height: 1.3; color: #F5F3EE">Les 400 questions existent déjà. Il ne reste qu’à les mettre en forme et à les donner en échange d’un contact.</p></div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1100,"height":1800}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return { ex: [
+      { n: 'Admissions Parallèles', d: 'admissionsparalleles.com', u: 'https://www.admissionsparalleles.com', w: 'Guide AST gratuit en PDF et Tage Mage blancs, puis webinaire et appel.', k: 'PDF + blancs' },
+      { n: 'Ipesup', d: 'ipesup.fr', u: 'https://www.ipesup.fr', w: 'Tage Mage blancs gratuits contre inscription : la base de sa capture de leads.', k: 'Blancs gratuits' },
+      { n: 'Personal MBA Coach', d: 'personalmbacoach.com', u: 'https://www.personalmbacoach.com', w: 'Ebooks à télécharger puis newsletter hebdomadaire jusqu’à l’appel.', k: 'Ebook → email' },
+      { n: 'UNI Student Advisors', d: 'unistudentadvisors.com', u: 'https://www.unistudentadvisors.com', w: 'Guides PDF gratuits qui mènent à une consultation (marché italien).', k: 'Guide → appel' }
+    ] };
+  }
+}
+</script>
+</body>
+</html>

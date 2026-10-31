@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>10 · Plateformes et classements</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400..700&amp;family=DM+Sans:wght@400..700&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#B04A17}a:hover{color:#8A3A12}
+</style>
+</helmet>
+<div style="width: 1100px; height: 1800px; box-sizing: border-box; padding: 64px; background: #F5F3EE; color: #15213A; font-family: 'DM Sans', Arial, sans-serif; display: flex; flex-direction: column; gap: 28px">
+<div style="display: flex; justify-content: space-between; align-items: center">
+<p style="margin: 0; font-size: 18px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; background: #2E5AAC; color: #FCFBF8; padding: 8px 18px; border-radius: 999px">Relais</p>
+<p style="margin: 0; font-family: 'Fraunces', Georgia, serif; font-size: 44px; font-weight: 600; color: #B04A17">10</p>
+</div>
+<h1 style="margin: 0; font-family: 'Fraunces', Georgia, serif; font-size: 64px; font-weight: 600; line-height: 1.05">Plateformes et classements</h1>
+<p style="margin: 0; font-size: 24px; line-height: 1.5; color: #3E4757"><b style="color: #15213A">Pour PerformUp :</b> pour le segment international (LBS, Bocconi, ESADE), un profil vérifié sur GMAT Club avec des avis d’anciens élèves, et des réponses d’expert sur le forum.</p>
+<p style="margin: 0; align-self: flex-start; font-size: 22px; font-weight: 700; background: #E3EAF6; color: #2E5AAC; padding: 8px 18px; border-radius: 999px">Phase 2 · à chiffrer si retenu</p>
+
+<figure style="margin: 0; position: relative; height: 480px; box-sizing: border-box; background: #E9E4D8; border-radius: 24px; padding: 64px 48px 40px; display: flex; flex-direction: column; gap: 16px">
+<figcaption style="position: absolute; top: 20px; left: 28px; font-size: 16px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: #5B6474">Aperçu pour PerformUp · illustration</figcaption>
+<p style="margin: 0; font-size: 18px; font-weight: 700; color: #5B6474">Classement des coachs MiM, avis vérifiés</p>
+<div style="background: #FCFBF8; border-radius: 14px; padding: 18px 24px; display: grid; grid-template-columns: 48px minmax(0, 1fr) 160px; gap: 16px; align-items: center"><p style="margin: 0; font-family: 'Fraunces', Georgia, serif; font-size: 30px; font-weight: 600; color: #5B6474">1</p><p style="margin: 0; font-size: 20px; font-weight: 700">[Cabinet A]</p><p style="margin: 0; font-size: 18px; color: #3E4757; text-align: right">[300] avis</p></div>
+<div style="background: #FCFBF8; border-radius: 14px; padding: 18px 24px; display: grid; grid-template-columns: 48px minmax(0, 1fr) 160px; gap: 16px; align-items: center"><p style="margin: 0; font-family: 'Fraunces', Georgia, serif; font-size: 30px; font-weight: 600; color: #5B6474">2</p><p style="margin: 0; font-size: 20px; font-weight: 700">[Cabinet B]</p><p style="margin: 0; font-size: 18px; color: #3E4757; text-align: right">[120] avis</p></div>
+<div style="background: #FCFBF8; border: 2px solid #B04A17; border-radius: 14px; padding: 18px 24px; display: grid; grid-template-columns: 48px minmax(0, 1fr) 160px; gap: 16px; align-items: center"><p style="margin: 0; font-family: 'Fraunces', Georgia, serif; font-size: 30px; font-weight: 600; color: #B04A17">3</p><p style="margin: 0; font-size: 20px; font-weight: 700">PerformUp · seul « admis ou remboursé »</p><p style="margin: 0; font-size: 18px; color: #3E4757; text-align: right">[25] avis</p></div>
+<p style="margin: 0; font-size: 17px; line-height: 1.45; color: #3E4757">Sur ces plateformes, aucun cabinet international ne rembourse : la garantie de PerformUp s’y voit.</p>
+</figure>
+
+<div style="display: flex; flex-direction: column">
+<p style="margin: 0 0 8px; font-size: 18px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: #5B6474">Qui le fait déjà</p>
+<sc-for list="{{ ex }}" as="e" hint-placeholder-count="4">
+<div style="display: grid; grid-template-columns: minmax(0, 1fr) 230px; gap: 24px; border-top: 1px solid #C9C2B3; padding: 16px 0; align-items: center">
+<div style="display: flex; flex-direction: column; gap: 4px"><p style="margin: 0; font-size: 24px; font-weight: 700">{{ e.n }} <a href="{{ e.u }}" style="font-size: 18px; font-weight: 500">{{ e.d }}</a></p><p style="margin: 0; font-size: 20px; line-height: 1.45; color: #3E4757">{{ e.w }}</p></div>
+<p style="margin: 0; font-family: 'Fraunces', Georgia, serif; font-size: 30px; font-weight: 600; line-height: 1.15; color: #B04A17; text-align: right">{{ e.k }}</p>
+</div>
+</sc-for>
+</div>
+<div style="flex: 1"></div>
+<div style="background: #15213A; border-radius: 20px; padding: 28px 32px"><p style="margin: 0; font-family: 'Fraunces', Georgia, serif; font-size: 28px; font-weight: 600; line-height: 1.3; color: #F5F3EE">Les prépas AST françaises n’y sont pas. Pour les candidats internationaux, c’est là que le choix se fait.</p></div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1100,"height":1800}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return { ex: [
+      { n: 'GMAT Club', d: 'gmatclub.com', u: 'https://gmatclub.com', w: 'Le forum de référence : avis vérifiés, annuaires de coachs, salon MBA Spotlight.', k: '~2,4 M visites / mois' },
+      { n: 'Target Test Prep', d: 'targettestprep.com', u: 'https://www.targettestprep.com', w: 'Se présente comme « n°1 sur GMAT Club », avec un code partenaire.', k: '~900 avis' },
+      { n: 'ARINGO', d: 'aringo.com', u: 'https://aringo.com', w: 'Forum « Ask ARINGO » et avis sur GMAT Club, plutôt que de la publicité.', k: '300 avis' },
+      { n: 'Menlo Coaching', d: 'menlocoaching.com', u: 'https://menlocoaching.com', w: 'Mise sur les classements GMAT Club et Poets&Quants, aucune pub Meta.', k: '0 pub Meta' }
+    ] };
+  }
+}
+</script>
+</body>
+</html>

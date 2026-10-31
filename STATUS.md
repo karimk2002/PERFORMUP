@@ -6,6 +6,7 @@ Goal: win a GTM/acquisition collaboration with PerformUp (contact: Simo Afeilal,
 Status: on-track
 
 ## Now
+- 2026-10-31: Mood board added to the canvas: 12 boards (reviews, free guide, simulator, SEO, webinars, founder content, Meta, Google, partnerships, platforms, referral, outbound), each with a PerformUp preview, competitor examples with numbers and links, and a takeaway.
 - 2026-10-31: Proposal material in French, in proposal/: 15-slide deck, one zoomable board with everything, and a goal document (links in README). Bundles in call_prep/03_pricing_menu.md fixed to match the deck. Artifacts are private until shared.
 - 2026-10-29: Full pricing menu added (call_prep/03_pricing_menu.md): one-off builds (foundations €3k, simulator, lead magnet, webinars) + monthly engines (SEO €900–1,200, social content €700–900, ads €500–800) + €200–300 bonus per signed client. New lead offer: "Fondations" first, then 1–2 engines.
 - 2026-10-29: Call prep for the 30 Oct call with Simo, in call_prep/: what to offer (00), competitor briefing (01), all 53 competitors (02). Recommended offer: 90-day pilot at €500–800/month + €300–400 per signed client from Karim's channels, ad budget min €1k/month paid by them. Correction: the "ex-jury" claim is not unique (Hello Prépa, Mission Admission, PGE-PGO).
