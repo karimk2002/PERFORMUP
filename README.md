@@ -7,4 +7,7 @@ Karim's workspace for a growth/acquisition collaboration with PerformUp (perform
 - `research/`: competitor dashboard, competitors and acquisition CSVs, performup.eu audit
 - `brainstorm/`: `01_brainstorm.md` (ideas, scoring, shortlist, how Karim gets paid), `02_questions_call_simo.md` (discovery call sheet, in French)
 - `call_prep/`: offer reasoning + call plan (00), competitor briefing (01), all 53 competitors (02), full pricing menu for organic/SEO/content/ads (03)
-- `proposal/`: the proposal for Simo (to come, after the discovery call)
+- `proposal/`: material for Simo, in French
+  - `slides/`: 15-slide deck (published: https://claude.ai/artifact/GBFufEiL8FxkzomZMhgUYZ)
+  - `one-page/`: everything on one large zoomable board (published: https://claude.ai/artifact/5B4AF5YZjfifRxp6WCo7wB)
+  - `objectif.html`: the goal document (published: https://claude.ai/artifact/C1XpZW1PqKbUTEwrW6NUAz)

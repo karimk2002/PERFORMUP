@@ -1,0 +1,176 @@
+<title>Objectif PerformUp 2026/27</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400..700&family=DM+Sans:wght@400..700&display=swap">
+<style>
+/* Layout: a single reading column (memo), wide blocks for the goal tiles and the roles table. */
+:root {
+  --bg: #F5F3EE;
+  --surface: #FCFBF8;
+  --ink: #15213A;
+  --muted: #4A5363;
+  --line: #DDD8CC;
+  --accent: #B04A17;
+  --accent-soft: #F8E6DA;
+  --blue: #2E5AAC;
+  --blue-soft: #E3EAF6;
+  --display: 'Fraunces', Georgia, serif;
+  --body: 'DM Sans', Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #121A2B; --surface: #1A2438; --ink: #EEF0F4; --muted: #B7C0CF; --line: #2E3A52;
+    --accent: #F2945C; --accent-soft: #3A2A22; --blue: #8DB0F0; --blue-soft: #1F2C47;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #121A2B; --surface: #1A2438; --ink: #EEF0F4; --muted: #B7C0CF; --line: #2E3A52;
+  --accent: #F2945C; --accent-soft: #3A2A22; --blue: #8DB0F0; --blue-soft: #1F2C47;
+  color-scheme: dark;
+}
+body { background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 17px; line-height: 1.6; }
+.wrap { max-width: 900px; margin: 0 auto; padding-block: 56px 96px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: flex; flex-direction: column; gap: 56px; }
+.eyebrow { font-size: 13px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); margin: 0; }
+h1, h2, h3 { font-family: var(--display); font-weight: 600; text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(36px, 6vw, 56px); line-height: 1.08; }
+h2 { font-size: clamp(26px, 3.6vw, 34px); line-height: 1.15; }
+h3 { font-family: var(--body); font-size: 18px; font-weight: 700; }
+p { margin: 0; }
+.lede { font-size: 20px; color: var(--muted); max-width: 64ch; }
+section { display: flex; flex-direction: column; gap: 20px; }
+.head { display: flex; flex-direction: column; gap: 14px; }
+.meta { font-size: 14px; color: var(--muted); }
+.thesis { background: var(--ink); color: var(--bg); border-radius: 18px; padding: 32px; display: flex; flex-direction: column; gap: 10px; }
+.thesis .eyebrow { color: var(--accent); }
+:root:not([data-theme="light"]) .thesis .eyebrow { color: #F2945C; }
+.thesis p.big { font-family: var(--display); font-size: clamp(22px, 3vw, 30px); line-height: 1.25; font-weight: 600; }
+.grid3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.grid2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.tile { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 22px; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.tile p { color: var(--muted); font-size: 16px; }
+.tile .k { font-family: var(--display); font-size: 30px; font-weight: 600; color: var(--accent); line-height: 1.1; }
+ul.clean { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 8px; }
+ul.clean li::marker { color: var(--accent); }
+.horizon { display: grid; grid-template-columns: 140px 1fr; gap: 20px; border-top: 2px solid var(--line); padding-top: 18px; }
+.horizon .when { font-weight: 700; color: var(--accent); }
+.ph { background: var(--accent-soft); border-radius: 4px; padding: 0 5px; font-variant-numeric: tabular-nums; }
+.table-box { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 16px; min-width: 560px; }
+th, td { text-align: left; padding: 12px 14px 12px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { border-bottom: 2px solid var(--ink); font-size: 14px; letter-spacing: 0.06em; text-transform: uppercase; }
+td.who { font-weight: 700; white-space: nowrap; }
+.tag { display: inline-block; font-size: 13px; font-weight: 700; padding: 2px 10px; border-radius: 999px; }
+.tag.simo { background: var(--blue-soft); color: var(--blue); }
+.tag.karim { background: var(--accent-soft); color: var(--accent); }
+.tag.both { background: var(--line); color: var(--ink); }
+.note { font-size: 14px; color: var(--muted); }
+.next { border: 2px solid var(--accent); border-radius: 16px; padding: 26px; display: flex; flex-direction: column; gap: 12px; }
+ol.steps { margin: 0; padding-left: 22px; display: flex; flex-direction: column; gap: 6px; }
+@media (max-width: 720px) {
+  .grid3, .grid2 { grid-template-columns: minmax(0, 1fr); }
+  .horizon { grid-template-columns: minmax(0, 1fr); gap: 6px; }
+}
+</style>
+
+<main class="wrap">
+
+<header class="head">
+<p class="eyebrow">PerformUp × Karim · Octobre 2026</p>
+<h1>Un deuxième moteur d’acquisition pour PerformUp</h1>
+<p class="lede">Ce document fixe l’objectif de notre collaboration : ce qu’on veut obtenir, comment on saura que ça marche, et qui fait quoi. Les chiffres entre crochets sont à fixer ensemble à partir de vos chiffres actuels.</p>
+<p class="meta">Préparé par Karim pour Simo Afeilal et Sara Souissi · Version de travail</p>
+</header>
+
+<div class="thesis">
+<p class="eyebrow">L’objectif en une phrase</p>
+<p class="big">Faire de PerformUp la référence visible et prouvée du coaching d’admission en école de commerce, avec un flux régulier de clients qui ne dépend plus d’un seul canal.</p>
+</div>
+
+<section>
+<h2>Pourquoi maintenant</h2>
+<div class="grid3">
+<div class="tile"><span class="k">1 canal</span><h3>Tout repose sur l’outbound</h3><p>La prospection LinkedIn signe des clients, mais elle est plafonnée (environ 100 à 200 invitations par semaine) et dépend d’une seule personne.</p></div>
+<div class="tile"><span class="k">53</span><h3>Un marché qui se montre</h3><p>Les concurrents utilisent en moyenne 6,8 canaux sur 11 : outils gratuits, pages par école, avis Google, publicité. PerformUp en utilise peu, et rien de visible.</p></div>
+<div class="tile"><span class="k">Oct–mars</span><h3>La saison est ouverte</h3><p>Les rounds MiM courent jusqu’en mars, et les candidats AST 2027 commencent à chercher au printemps. Ce qu’on construit maintenant sert deux saisons.</p></div>
+</div>
+</section>
+
+<section>
+<h2>Ce qu’on vise</h2>
+<div class="horizon">
+<p class="when">À 90 jours</p>
+<ul class="clean">
+<li>Les fondations sont en ligne : page en français, coachs nommés, résultats par école, suivi des leads.</li>
+<li><span class="ph">30 à 50</span> avis Google et Trustpilot publiés.</li>
+<li>Un premier flux de leads inbound, mesuré chaque semaine : <span class="ph">[__]</span> leads par mois.</li>
+<li>On connaît le coût d’un client signé, canal par canal.</li>
+<li>Le taux de signature de l’outbound progresse, parce que les prospects tombent sur un site qui rassure.</li>
+</ul>
+</div>
+<div class="horizon">
+<p class="when">À 12 mois</p>
+<ul class="clean">
+<li>L’inbound apporte <span class="ph">[__] %</span> des clients signés, en plus de l’outbound.</li>
+<li>PerformUp apparaît sur les recherches clés : « coaching admission HEC », « oral AST ESSEC », « MiM LBS ».</li>
+<li>Une marque reconnue : des visages, des résultats nommés, une centaine d’avis.</li>
+<li><span class="ph">[__]</span> clients signés sur la saison 2026/27, contre <span class="ph">[__]</span> l’an dernier.</li>
+</ul>
+</div>
+</section>
+
+<section>
+<h2>Les trois leviers</h2>
+<div class="grid3">
+<div class="tile"><h3>Plus de leads</h3><p>Pages SEO école par école, contenu de Sara et des coachs, publicité Meta et Google, simulateur « Quelles sont mes chances ? ». On en choisit un ou deux.</p></div>
+<div class="tile"><h3>Mieux convertis</h3><p>Site en français, preuves visibles, réponse en moins de 5 minutes, relances, proposition écrite le jour de l’appel.</p></div>
+<div class="tile"><h3>Mesurés</h3><p>CRM et liens suivis : leads, appels réservés, appels honorés, clients signés, coût par client. Un point de 30 minutes chaque semaine.</p></div>
+</div>
+</section>
+
+<section>
+<h2>Qui fait quoi</h2>
+<div class="table-box">
+<table>
+<thead><tr><th style="width: 22%">Qui</th><th>Rôle</th></tr></thead>
+<tbody>
+<tr><td class="who"><span class="tag simo">Simo</span></td><td>Garde l’outbound, les partenariats et les relations (associations, anciens élèves). Reçoit des listes de prospects plus chaudes issues de l’inbound.</td></tr>
+<tr><td class="who"><span class="tag karim">Karim</span></td><td>Construit le moteur inbound, la couche de confiance (site, avis, guide) et le suivi des chiffres.</td></tr>
+<tr><td class="who"><span class="tag both">Sara et les coachs</span></td><td>Apportent l’expertise : relecture des contenus, 2 à 3 heures de tournage par mois, contacts d’anciens élèves pour les avis.</td></tr>
+<tr><td class="who"><span class="tag both">Ensemble</span></td><td>Un point chiffres de 30 minutes par semaine, un bilan à J+45 et à J+90.</td></tr>
+</tbody>
+</table>
+</div>
+</section>
+
+<section>
+<h2>Nos principes</h2>
+<div class="grid2">
+<div class="tile"><h3>On complète, on ne remplace pas</h3><p>L’outbound reste le cœur. Tout ce qu’on construit doit aussi le faire mieux convertir.</p></div>
+<div class="tile"><h3>On mesure tout</h3><p>Un client compte pour l’inbound si son premier contact vient d’un canal inbound. Pas de débat sur qui a ramené qui.</p></div>
+<div class="tile"><h3>On commence petit</h3><p>D’abord les fondations, puis un ou deux moteurs. On coupe ce qui ne marche pas à J+45.</p></div>
+<div class="tile"><h3>Tout reste à PerformUp</h3><p>Site, contenus, comptes publicitaires et données vous appartiennent. Arrêt possible des deux côtés à 90 jours.</p></div>
+</div>
+</section>
+
+<section>
+<h2>Hors périmètre</h2>
+<ul class="clean">
+<li>La prospection outbound, qui reste à Simo.</li>
+<li>Les appels de vente, qui restent à l’équipe PerformUp.</li>
+<li>La gestion quotidienne des réseaux sociaux et des messages.</li>
+</ul>
+</section>
+
+<div class="next">
+<p class="eyebrow">Prochaine étape</p>
+<h2>Fixer les chiffres, puis démarrer sous une semaine</h2>
+<ol class="steps">
+<li>Vous partagez trois chiffres : panier moyen, clients par an, taux de signature après l’appel.</li>
+<li>On fixe ensemble les objectifs entre crochets ci-dessus.</li>
+<li>Vous choisissez une formule (détail dans la présentation).</li>
+<li>Lancement des fondations sous 7 jours, premier point chiffres à J+14.</li>
+</ol>
+<p class="note">Formules et tarifs : voir la présentation « PerformUp · Plan d’acquisition ».</p>
+</div>
+
+</main>

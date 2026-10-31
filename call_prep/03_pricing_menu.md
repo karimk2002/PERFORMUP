@@ -50,9 +50,11 @@ All prices excl. VAT. Market rates are rough French freelance ranges, used as an
 | Bundle | Content | Month 1 | Then per month | Karim's time | Break-even* |
 |---|---|---|---|---|---|
 | **1. Fondations** (one-off) | A1 + A2 + A3 + A5 | €3,000 (or 3 × €1,000) | — | ~35 h over 5 weeks | **1 client** |
-| **2. Inbound organique** *(no ad budget)* | Fondations + SEO engine (B1) + simulator (A4) | €3,000 + €900 | €900 + bonus | ~4–5 h/week | 1 client every 2–3 months |
-| **3. Inbound complet** *(recommended if budget)* | Fondations + B1 SEO + B3 ads (+ B2 social **or** A4 simulator) | €3,000 + €1,500 | €1,500–1,900 + bonus | ~6–7 h/week (**at Karim's limit**) | 1 client every ~2 months |
-| **4. Contenu fondateur** | Fondations + B2 social system | €3,000 + €800 | €800 + bonus | ~3–4 h/week | 1 client every 3–4 months |
+| **2. Inbound organique** *(no ad budget)* | Fondations + SEO engine (B1) | €3,000 | €900–1,200 + bonus | ~3–4 h/week | 1 client every ~2 months |
+| **3. Inbound complet** *(recommended if budget)* | Fondations + B1 SEO + B3 ads | €3,000 | €1,400–1,900 + bonus + ad budget | ~5–6 h/week (**near Karim's limit**) | 1 client a month |
+| **4. Contenu fondateur** | Fondations + B2 social system | €3,000 | €700–900 + bonus | ~3–4 h/week | 1 client every 2–3 months |
+
+*Options for any bundle:* simulator A4 (€1,500–2,500 one-off), webinar funnel A6 (€900 + €150 per variant). *Fixed 31 Oct: bundles 2 and 3 previously mixed in the simulator without pricing it; they now match the deck.*
 
 \*Break-even assumes a €4k ticket and ~50% margin, so **one extra client covers about €2k** of spend.
 

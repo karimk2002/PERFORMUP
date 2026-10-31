@@ -1,11 +1,12 @@
 # PERFORMUP — STATUS
 
-Updated: 2026-10-29
+Updated: 2026-10-31
 
 Goal: win a GTM/acquisition collaboration with PerformUp (contact: Simo Afeilal, who owns GTM), built on the competitive research below.
 Status: on-track
 
 ## Now
+- 2026-10-31: Proposal material in French, in proposal/: 15-slide deck, one zoomable board with everything, and a goal document (links in README). Bundles in call_prep/03_pricing_menu.md fixed to match the deck. Artifacts are private until shared.
 - 2026-10-29: Full pricing menu added (call_prep/03_pricing_menu.md): one-off builds (foundations €3k, simulator, lead magnet, webinars) + monthly engines (SEO €900–1,200, social content €700–900, ads €500–800) + €200–300 bonus per signed client. New lead offer: "Fondations" first, then 1–2 engines.
 - 2026-10-29: Call prep for the 30 Oct call with Simo, in call_prep/: what to offer (00), competitor briefing (01), all 53 competitors (02). Recommended offer: 90-day pilot at €500–800/month + €300–400 per signed client from Karim's channels, ad budget min €1k/month paid by them. Correction: the "ex-jury" claim is not unique (Hello Prépa, Mission Admission, PGE-PGO).
 - 2026-10-17: Brainstorm draft 1 done (brainstorm/01_brainstorm.md): ~25 ideas scored, a 90-day pilot shortlist, and 4 ways to get paid (recommended: small retainer + fee per signed client). Discovery-call questions in French ready (brainstorm/02_questions_call_simo.md).
@@ -21,7 +22,7 @@ Status: on-track
 - [ ] Choose: how many hours/week next to Revo, and which pay model; check the Revo contract for side-work clauses
 - [x] Book the discovery call with Simo (30 Oct)
 - [ ] Run the call (questions: brainstorm/02_questions_call_simo.md)
-- [ ] Send the written plan + offer to Simo within 48 h of the call (proposal/)
+- [ ] Check the slides against what was said on the 30 Oct call, verify the "site in English" point, then share the deck + goal doc with Simo
 - [x] Build competitor CSV with websites, services and socials (2026-10-03)
 - [x] Build competitor dashboard (2026-10-03)
 - [x] Research how competitors find clients, incl. Meta and Google ad libraries (2026-10-06)
